@@ -1,5 +1,5 @@
 # pseudoInput
-a toy &lt;Input />
+a toy &lt;input />
 
 ### Usage
 ``` javascript
