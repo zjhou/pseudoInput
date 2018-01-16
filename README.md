@@ -1,6 +1,9 @@
 # pseudoInput
 a toy &lt;input />
 
+### install
+- `npm install pseudoinput`
+- `<script src="pseudoinput.js"></script`
 ### Usage
 ``` javascript
 const Input = PseudoInput("wrappId"[, option ]);
@@ -15,3 +18,4 @@ Input.onEnter = (val) => {/* do something with val */}
 - `option.backgroundColor` background color
 - `option.cursorColor` cursor color
 - `option.fontSize` font size
+- `option.disableAutoFocus` if set true, you need call `Input.focus()` then input
