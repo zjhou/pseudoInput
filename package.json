@@ -1,6 +1,6 @@
 {
   "name": "pseudoinput",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a pseudo input element with block cursor",
   "main": "index.js",
   "directories": {
