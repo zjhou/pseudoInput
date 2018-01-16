@@ -1,0 +1,31 @@
+{
+  "name": "pseudoinput",
+  "version": "0.0.1",
+  "description": "a pseudo input element with block cursor",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle -o bin --compress --format cjs",
+    "dev": "microbundle watch -o bin --compress --format cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjhou/pseudoInput.git"
+  },
+  "keywords": [
+    "input",
+    "cursor"
+  ],
+  "author": "zjhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjhou/pseudoInput/issues"
+  },
+  "homepage": "https://github.com/zjhou/pseudoInput#readme",
+  "devDependencies": {
+    "microbundle": "^0.3.1"
+  }
+}
