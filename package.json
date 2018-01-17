@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "microbundle -o bin --compress --format umd",
-    "dev": "microbundle watch -o bin --compress --format cjs"
+    "dev": "microbundle watch -o bin --compress --format umd"
   },
   "repository": {
     "type": "git",
