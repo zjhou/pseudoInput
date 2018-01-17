@@ -4,6 +4,7 @@ a toy &lt;input />
 ### install
 - `npm install pseudoinput`
 - `<script src="pseudoinput.umd.js"></script`
+
 ### Usage
 ``` javascript
 const Input = PseudoInput("wrappId"[, option ]);
